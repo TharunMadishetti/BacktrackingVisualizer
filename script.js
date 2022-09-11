@@ -39,15 +39,15 @@ function construct() {
     
     document.getElementById("grid")
 .appendChild(form);
-    var ins = document.createElement("textarea");
-    ins.setAttribute("id","instruct");
-    ins.setAttribute("rows","4");
-    ins.setAttribute("cols","100");
-    ins.setAttribute("readonly","true");
-    ins.style.resize='none';
-    ins.style.textAlign='center';
-    ins.innerHTML="Hello there im inner html";
-    document.getElementById("grid").appendChild(ins);
+//     var ins = document.createElement("textarea");
+//     ins.setAttribute("id","instruct");
+//     ins.setAttribute("rows","4");
+//     ins.setAttribute("cols","100");
+//     ins.setAttribute("readonly","true");
+//     ins.style.resize='none';
+//     ins.style.textAlign='center';
+//     ins.innerHTML="Hello there im inner html";
+   // document.getElementById("grid").appendChild(ins);
 			}
 
 function save() {
